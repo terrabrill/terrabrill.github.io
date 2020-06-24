@@ -142,7 +142,7 @@
 
 .custom .button.pressed {
     background-position-y: -53px;
-    opacity: 1;
+    opacity: 0.75;
 }
 
 .custom .a {
@@ -187,6 +187,8 @@
 
 .custom .stick.pressed {
     background-position: -84px 0px;
+    opacity: 0.5;
+    /* color: white; */
 }
 
 .custom .stick.left {
@@ -214,7 +216,7 @@
 }
 
 .custom .face.pressed {
-    opacity: 1;
+    opacity: 0.75;
 }
 
 .custom .face.up {
