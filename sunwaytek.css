@@ -92,36 +92,39 @@
 
 .custom .arrows {
     position: absolute;
-    width: 216px;
+    width: 194px;
     height: 36px;
-    top: 437px;
-    left: 276px;
+    top: 196px;
+    left: 282px;
 }
 
 .custom .back {
     background: url(start-select.svg);
-    width: 77px;
+    width: 56px;
     height: 36px;
     opacity: 0;
+    transform: scale(0.8);
 }
 .custom .start {
     background: url(start-select.svg);
-    width: 62px;
+    width: 56px;
     height: 36px;
     opacity: 0;
+    transform: scale(0.8);
+    /* left: 199px; */
 }
 .custom .back.pressed, .start.pressed {
-    opacity: 1;
+    opacity: 0.75;
 }
 
 .custom .back {
     float: left;
-	margin-right: -5px;
+    margin-right: 0px;
 }
 
 .custom .start {
-    background-position: -77px 0px;
-    float: left;
+    background-position: -57px 0px;
+    float: right;
 }
 
 .custom .abxy {
