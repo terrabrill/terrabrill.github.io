@@ -1,6 +1,6 @@
 .controller.custom{
     background-image: url(base.svg);
-    height: 692px;
+    height: 671px;
     width: 758px;
 }
 
@@ -13,10 +13,10 @@
 }
 
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 556px;
-    height: 119px;
+    width: 490px;
+    height: 116px;
     position: absolute;
-    left: 101px;
+    left: 138px;
 }
 
 .custom .trigger {
@@ -32,25 +32,26 @@
 
 .custom .trigger.left {
     float: left;
-    background-position: 0 0;
+    background-position: 0px 6px;
 }
 
 .custom .trigger.right {
     float: right;
     transform: rotateY(180deg);
+    background-position: 0px 6px;
 }
 
 .custom .bumpers {
-    width: 542px;
-    height: 53px;
-    left: 108px;
+    width: 504px;
+    height: 0px;
+    left: 128px;
     position: absolute;
-	top: 111px;
+    top: 123px;
 }
 
 .custom .bumper {
     width: 124px;
-    height: 53px;
+    height: 39px;
     background: url(bumper.svg);
     opacity: 0;
 }
@@ -189,13 +190,13 @@
 }
 
 .custom .stick.left {
-    top: 0;
-    left: 0;
+    top: -118px;
+    left: -61px;
 }
 
 .custom .stick.right {
-    top: 0px;
-    left: 232px;
+    top: 4px;
+    left: 210px;
 }
 
 .custom .dpad {
